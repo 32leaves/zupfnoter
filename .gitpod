@@ -1,1 +1,3 @@
 image: ruby:alpine
+ports:
+  - 8080
