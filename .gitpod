@@ -1,3 +1,4 @@
-projectRoot: "src/demo/zupfnoter"
+checkoutLocation: "src/demo/zupfnoter"
+workspaceLocation: "src/demo"
 ports:
   - 8080
