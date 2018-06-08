@@ -1,3 +1,3 @@
-projectRoot: "src/demo/zupfnoter"
+projectRoot: "../../src/demo/zupfnoter"
 ports:
   - 8080
