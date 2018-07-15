@@ -79,7 +79,7 @@ task :updateAbc2svgDev do
 end
 
 desc "Build our app to #{ZUPFNOTER_JS}"
-task :build => [:buildConfigDoc, :updateLocales] do
+task :build => [:updateLocales] do
   #env = Sprockets::Environment.new
   Opal.append_path "."
   Opal.append_path "../vendor"
