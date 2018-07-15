@@ -2,4 +2,5 @@ image: ruby:2.4-stretch
 checkoutLocation: "src/demo/zupfnoter"
 workspaceLocation: "src/demo"
 ports:
-  - 8080
+  - port: 3001
+    protocol: "http"
